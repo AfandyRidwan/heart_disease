@@ -58,7 +58,7 @@ def main():
         
         # input field
         sex = st.selectbox("Pilih Jenis Kelamin", options=list(genders.keys()), format_func=g)
-        age = st.slider("Usia", 30, 70)
+        age = st.slider("Usia", 29, 77)
         cp  = st.selectbox("Type Nyeri Dada", options=list(chestP.keys()), format_func=cP)
         exang = st.selectbox("Nyeri Dada disebabkan Olahraga", options=list(ex.keys()), format_func=exa)
         restecg = st.selectbox("Resting Electrocardiographic", options=list(res.keys()), format_func=re)
